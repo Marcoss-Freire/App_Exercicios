@@ -41,3 +41,18 @@
   <p> Logo após, é necessário vincular o repositório local com o repositório que está no servidor. Para que isso seja possível basta utlizar o comando "git remote add origin link_do_repositório. No caso, o comando já tinha sido executado. </p>
   <p> Depois, pega-se os arquivos que está no servidor e mescla com os arquivos locais, utlizando o comando "git pull --allow-unrelated-histories link_do_repositorio. </p>
 </div>
+
+### Passo 5 (Add, commit e push)
+
+<div align="center">
+  <img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/d95e658c-22de-4bae-b689-e4d081e8f9f9">
+  <p> Depois de todas as configurações iniciais, basta se utlizar alguns comandos para enviar os arquivos para o servidor. Primeiro começa-se com o "git add nome_do_arquivo". Esse comando permite monitorar os arquivos, basicamente é um pré-requisito para o commit. Caso queria, monitorar todos os arquivos basta colocar o ponto (.) no lugar do nome do arquivo.</p>
+  <p> Para se certificar que quais arquivos estão sendo monitorados utliza-se o comando "git status". </p>
+  <img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/71cb7dc3-55c5-46c3-9036-591b0d569835">
+  <p> Depois disso, basta dar o "commit" utlizando o comando "git commit -m "mensagem". </p>
+  <img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/5d1b0c34-386b-4a8e-952d-882c736c8f81">
+  <p> Para certificar-se quais foram os commits feitos é necessário digitar o comando "git log". </p>
+  <img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/7105244a-3bcd-4b2e-b07b-f84ebfa58acd">
+  <p> O commit foi realizado, porém, ainda não está no servidor. Para mandar para o mesmo, basta utlizar o comando "git push -u origin nome_da_branch".</p>
+  <p> O 5° passo será o mais utlizado no decorrer do projeto, já que envolve commits. </p>
+</div>

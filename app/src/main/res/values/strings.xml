@@ -4,7 +4,16 @@
     <string name="nav_ex">Exercícios</string>
     <string name="nav_dados">Dados</string>
     <string name="exe_1">Exercício 1</string>
+    <string name="exe_6">Exercicio 6</string>
 
-    //String Home
+    // String Home
     <string name="rotulo_tela">Exercícios de Fixação</string>
+
+    // Strings Exercicio 6
+    <string name="escolha_cod">Escolha qual é o código do produto: </string>
+    <string name="cod_a">A</string>
+    <string name="cod_b">B</string>
+    <string name="cod_c">C</string>
+    <string name="quantidade">Digite a quantidade: </string>
+    <string name="calcular">Calcular</string>
 </resources>

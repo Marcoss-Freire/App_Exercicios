@@ -1,3 +1,10 @@
 <resources>
+    // Strings Globais
     <string name="app_name">App_Exercicios</string>
+    <string name="nav_ex">Exercícios</string>
+    <string name="nav_dados">Dados</string>
+    <string name="exe_1">Exercício 1</string>
+
+    //String Home
+    <string name="rotulo_tela">Exercícios de Fixação</string>
 </resources>

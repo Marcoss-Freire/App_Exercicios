@@ -1,0 +1,25 @@
+<resources>
+    // Strings Globais
+    <string name="app_name">App_Exercicios</string>
+    <string name="nav_ex">Exercícios</string>
+    <string name="nav_dados">Dados</string>
+    <string name="exe_1">Exercício 1</string>
+    <string name="exe_6">Exercicio 6</string>
+
+    // Description
+    <string name="icon_home">Icone tela incial</string>
+    <string name="icon_dados">Icone tela dados</string>
+    <string name="img_exe1">Exercicio 1</string>
+    <string name="img_exe6">Exercicio 6</string>
+
+    // String Home
+    <string name="rotulo_tela">Exercícios de Fixação</string>
+
+    // Strings Exercicio 6
+    <string name="escolha_cod">Escolha qual é o código do produto: </string>
+    <string name="cod_a">C</string>
+    <string name="cod_b">R</string>
+    <string name="cod_c">S</string>
+    <string name="quantidade">Digite a quantidade: </string>
+    <string name="calcular">Calcular</string>
+</resources>

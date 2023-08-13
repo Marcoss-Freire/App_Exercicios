@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Exercicio_1">
 
     <LinearLayout
         android:id="@+id/ll_rotulo_exe1"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:background="@color/red"
         android:gravity="center|center_horizontal"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/ll_base"
@@ -22,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exe_1"
+            android:textColor="@color/white"
             android:textSize="24sp" />
     </LinearLayout>
 
@@ -39,7 +42,7 @@
         <LinearLayout
             android:layout_width="196.5dp"
             android:layout_height="match_parent"
-            android:background="#C12C2C"
+            android:background="@drawable/nav_fundo_exercicios"
             android:backgroundTintMode="screen"
             android:orientation="horizontal">
 
@@ -50,7 +53,8 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
-                android:contentDescription="@string/icon_home" />
+                android:contentDescription="@string/icon_home"
+                app:srcCompat="@drawable/icon_exercicios_white" />
 
             <TextView
                 android:id="@+id/txt_home_exe1"
@@ -58,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/nav_ex"
-                android:textColor="#000000"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -76,14 +80,16 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:text="@string/nav_dados"
+                android:textColor="@color/red"
                 android:textSize="20sp" />
 
             <ImageView
-                android:id="@+id/icon_home_exe1"
+                android:id="@+id/icon_dados_exe1"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
-                android:contentDescription="@string/icon_dados" />
+                android:contentDescription="@string/icon_dados"
+                app:srcCompat="@drawable/icon_dados_red" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

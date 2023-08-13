@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,7 +20,7 @@
         <LinearLayout
             android:layout_width="196.5dp"
             android:layout_height="match_parent"
-            android:background="#C12C2C"
+            android:background="@drawable/nav_fundo_exercicios"
             android:backgroundTintMode="screen"
             android:orientation="horizontal">
 
@@ -30,7 +31,8 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15dp"
-                android:contentDescription="@string/icon_home" />
+                android:contentDescription="@string/icon_home"
+                app:srcCompat="@drawable/icon_exercicios_white" />
 
             <TextView
                 android:id="@+id/Home_txt_home"
@@ -38,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/nav_ex"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
         </LinearLayout>
@@ -56,6 +59,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:text="@string/nav_dados"
+                android:textColor="@color/red"
                 android:textSize="20sp" />
 
             <ImageView
@@ -63,7 +67,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="10dp"
-                android:contentDescription="@string/icon_dados" />
+                android:contentDescription="@string/icon_dados"
+                app:srcCompat="@drawable/icon_dados_red" />
         </LinearLayout>
     </LinearLayout>
 
@@ -71,6 +76,7 @@
         android:id="@+id/ll_rotulo"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:background="@color/red"
         android:gravity="center|center_horizontal"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -83,13 +89,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/rotulo_tela"
+            android:textColor="@color/white"
             android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="300dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/white"
         android:foregroundGravity="center"
         android:gravity="center"
         android:orientation="vertical"
@@ -123,22 +131,26 @@
                         android:layout_width="250dp"
                         android:layout_height="250dp"
                         android:layout_margin="25dp"
-                        android:contentDescription="@string/exe_1" />
+                        android:contentDescription="@string/exe_1"
+                        app:srcCompat="@drawable/img_desc_exe1" />
 
                     <TextView
                         android:id="@+id/Home_txt_exe1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/exe_1"
-                        android:textSize="34sp" />
+                        android:textColor="@color/orange"
+                        android:textSize="34sp"
+                        tools:ignore="TextContrastCheck" />
 
                     <TextView
                         android:id="@+id/Home_txt_desc_exe1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:text="TextView"
-                        tools:ignore="HardcodedText" />
+                        android:text="@string/desc_exe1"
+                        android:textColor="@color/yellow"
+                        tools:ignore="HardcodedText,TextContrastCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -154,13 +166,15 @@
                         android:layout_width="250dp"
                         android:layout_height="250dp"
                         android:layout_margin="25dp"
-                        android:contentDescription="@string/exe_6" />
+                        android:contentDescription="@string/exe_6"
+                        app:srcCompat="@drawable/img_desc_exe6" />
 
                     <TextView
                         android:id="@+id/Home_txt_exe6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/exe_6"
+                        android:textColor="@color/orange"
                         android:textSize="34sp" />
 
                     <TextView
@@ -168,7 +182,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:text="TextView"
+                        android:text="@string/desc_exe6"
+                        android:textColor="@color/yellow"
                         tools:ignore="HardcodedText" />
                 </LinearLayout>
 

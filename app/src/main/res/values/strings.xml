@@ -4,7 +4,7 @@
     <string name="nav_ex">Exercícios</string>
     <string name="nav_dados">Dados</string>
     <string name="exe_1">Exercício 1</string>
-    <string name="exe_6">Exercicio 6</string>
+    <string name="exe_6">Exercício 6</string>
 
     // Description
     <string name="icon_home">Icone tela incial</string>
@@ -14,6 +14,10 @@
 
     // String Home
     <string name="rotulo_tela">Exercícios de Fixação</string>
+    <string name="desc_exe1">Elaborar um programa que lê 2 valores a e b e os escreve com a mensagem: “São múltiplos” ou “Não são múltiplos”</string>
+    <string name="desc_exe6">Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Ao escolher X, o pedido deverá ser finalizado. O programa calcula e mostra o valor total geral do pedido.</string>
+
+    // Strings Exercício 1
 
     // Strings Exercicio 6
     <string name="escolha_cod">Escolha qual é o código do produto: </string>
@@ -22,4 +26,14 @@
     <string name="cod_c">S</string>
     <string name="quantidade">Digite a quantidade: </string>
     <string name="calcular">Calcular</string>
+
+    // Strings Dados
+    <string name="prog">Programadores</string>
+    <string name="Marcos">Nome: Marcos Vinícius Barros Freire</string>
+    <string name="Marina">Nome: Marina Oliveira Silva</string>
+    <string name="turma">Turma: 2°DS</string>
+    <string name="inst">Instituição</string>
+    <string name="etec">Etec Prof° Basilides de Godoy</string>
+    <string name="ori">Orientador</string>
+    <string name="prof">Professora Aline Firmino Brito</string>
 </resources>

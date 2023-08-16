@@ -3,21 +3,28 @@
     <string name="app_name">App_Exercicios</string>
     <string name="nav_ex">Exercícios</string>
     <string name="nav_dados">Dados</string>
-    <string name="exe_1">Exercício 1</string>
+    <string name="exe_3">Exercício 3</string>
     <string name="exe_6">Exercício 6</string>
 
     // Description
     <string name="icon_home">Icone tela incial</string>
     <string name="icon_dados">Icone tela dados</string>
-    <string name="img_exe1">Exercicio 1</string>
+    <string name="img_exe3">Exercicio 3</string>
     <string name="img_exe6">Exercicio 6</string>
 
     // String Home
     <string name="rotulo_tela">Exercícios de Fixação</string>
-    <string name="desc_exe1">Elaborar um programa que lê 2 valores a e b e os escreve com a mensagem: “São múltiplos” ou “Não são múltiplos”</string>
+    <string name="desc_exe3">Elaborar um programa que recebe o número de horas extras e o números de horas-falta em minutos de um funcionário. Apresente esses números em hora e o vaor do prêmio.”</string>
     <string name="desc_exe6">Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Ao escolher X, o pedido deverá ser finalizado. O programa calcula e mostra o valor total geral do pedido.</string>
 
-    // Strings Exercício 1
+    // Strings Exercício 3
+    <string name= "extras"> Horas extras </string>
+    <string name= "horasE"> Digite a quantidade de horas extras </string>
+    <string name= "faltas"> Horas-faltas </string>
+    <string name= "horasF"> Digite a quantidade de horas-falta </string>
+    <string name= "verificar"> Verificar </string>
+    <string name= "txtresult"> Resultado </string>
+
 
     // Strings Exercicio 6
     <string name="escolha_cod">Escolha qual é o código do produto: </string>

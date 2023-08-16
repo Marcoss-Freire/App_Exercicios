@@ -127,28 +127,28 @@
                     tools:ignore="TextSizeCheck">
 
                     <ImageView
-                        android:id="@+id/Home_img_exe1"
+                        android:id="@+id/Home_img_exe3"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
                         android:layout_margin="25dp"
-                        android:contentDescription="@string/exe_1"
-                        app:srcCompat="@drawable/img_desc_exe1" />
+                        android:contentDescription="@string/img_exe3"
+                        app:srcCompat="@drawable/img_desc_exe3" />
 
                     <TextView
-                        android:id="@+id/Home_txt_exe1"
+                        android:id="@+id/img_exe3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/exe_1"
+                        android:text="@string/exe_3"
                         android:textColor="@color/orange"
                         android:textSize="34sp"
                         tools:ignore="TextContrastCheck" />
 
                     <TextView
-                        android:id="@+id/Home_txt_desc_exe1"
+                        android:id="@+id/desc_exe3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
-                        android:text="@string/desc_exe1"
+                        android:text="@string/desc_exe3"
                         android:textColor="@color/yellow"
                         tools:ignore="HardcodedText,TextContrastCheck" />
                 </LinearLayout>

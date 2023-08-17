@@ -16,7 +16,7 @@
             android:name=".Dados"
             android:exported="false" />
         <activity
-            android:name=".Exercicio_1"
+            android:name=".Exercicio_3"
             android:exported="false" />
         <activity
             android:name=".Exercicio_6"

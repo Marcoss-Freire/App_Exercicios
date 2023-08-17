@@ -149,7 +149,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:text="@string/desc_exe3"
-                        android:textColor="@color/yellow"
+                        android:textColor="@color/dark_yellow"
                         tools:ignore="HardcodedText,TextContrastCheck" />
                 </LinearLayout>
 
@@ -183,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="20dp"
                         android:text="@string/desc_exe6"
-                        android:textColor="@color/yellow"
+                        android:textColor="@color/dark_yellow"
                         tools:ignore="HardcodedText" />
                 </LinearLayout>
 

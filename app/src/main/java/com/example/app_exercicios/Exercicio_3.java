@@ -2,7 +2,6 @@ package com.example.app_exercicios;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -31,38 +30,35 @@ public class Exercicio_3 extends AppCompatActivity {
        text_result = findViewById(R.id.txtresult);
        btn_verificar = findViewById(R.id.verifica);
 
-       //programando o botão verificar
-        btn_verificar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View horas) {
-                //criando variáveis para as EditTexts e convertendo os valores para double
-                double horasE = Double.parseDouble(edit_extras.getText().toString());
-                double horasF = Double.parseDouble(edit_faltas.getText().toString());
+       // Programando o botão verificar
+        btn_verificar.setOnClickListener(horas -> {
+            // Criando variáveis para as EditTexts e convertendo os valores para double
+            double horasE = Double.parseDouble(edit_extras.getText().toString());
+            double horasF = Double.parseDouble(edit_faltas.getText().toString());
 
-                //Converter horas em minutos, para isso criando outra variável sendo elas: minutos extras e minutos-faltas
-                double minutosE = horasE * 60;
-                double minutosF = horasF * 60;
+            // Converter horas em minutos, para isso criando outra variável sendo elas: minutos extras e minutos-faltas
+            double minutosE = horasE * 60;
+            double minutosF = horasF * 60;
 
 
-                //Calculando as horas de acordo com a tabela
-                double H = minutosE - (2.0 / 3.0) * minutosF;
+            // Calculando as horas de acordo com a tabela
+            double H = minutosE - (2.0 / 3.0) * minutosF;
 
-                //Criando as condições de prêmios  da tabela, usando a estrutura if e else
-                if (H > 2400){
-                    text_result.setText("O prêmio é de R$500,00");
-                }
-                else if (H >= 1801 && H <= 2400){
-                    text_result.setText("O prêmio é de R$400,oo");
-                }
-                else if (H >= 1201 && H<=1800){
-                    text_result.setText("O prêmio é de R$300,oo");
-                }
-                else if (H >=600 && H<= 1200){
-                    text_result.setText("o Prêmio é de R$200,00");
-                }
-                else if (H <600){
-                    text_result.setText("O prêmio é de R$100,00");
-                }
+            // Criando as condições de prêmios  da tabela, usando a estrutura if e else
+            if (H > 2400){
+                text_result.setText(R.string.premio_500);
+            }
+            else if (H >= 1801 && H <= 2400){
+                text_result.setText(R.string.premio_400);
+            }
+            else if (H >= 1201 && H<=1800){
+                text_result.setText(R.string.premio_300);
+            }
+            else if (H >=600 && H<= 1200){
+                text_result.setText(R.string.premio_200);
+            }
+            else if (H <600){
+                text_result.setText(R.string.premio_100);
             }
         });
 
@@ -102,13 +98,4 @@ public class Exercicio_3 extends AppCompatActivity {
     TextView txt_faltas;
     TextView text_result;
     Button btn_verificar;
-
-
-
-
-
-
-
-
-
 }

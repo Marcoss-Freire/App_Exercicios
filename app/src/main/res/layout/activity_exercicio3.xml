@@ -117,11 +117,13 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="400dp"
         android:ems="10"
-        android:inputType="@string/extras"
+        android:inputType="number"
+        android:textColor="@color/dark_yellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/faltas"
@@ -132,11 +134,13 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="200dp"
         android:ems="10"
-        android:inputType="@string/faltas"
+        android:inputType="number"
+        android:textColor="@color/dark_yellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/verifica"
@@ -147,7 +151,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="60dp"
         android:text="@string/verificar"
-        android:textColor="#FFEB3B"
+        android:textColor="@color/yellow"
         android:textColorHighlight="#F44336"
         android:textColorLink="#F44336"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -169,7 +173,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/ll_navbar_exe1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ll_rotulo_exe1" />
+        app:layout_constraintTop_toTopOf="@+id/ll_rotulo_exe1"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/horasF"
@@ -185,5 +190,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

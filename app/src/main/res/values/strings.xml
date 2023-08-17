@@ -24,6 +24,11 @@
     <string name= "horasF"> Digite a quantidade de horas-falta </string>
     <string name= "verificar"> Verificar </string>
     <string name= "txtresult"> Resultado </string>
+    <string name="premio_400">O prêmio é de R$400,00</string>
+    <string name="premio_300">O prêmio é de R$300,00</string>
+    <string name="premio_200">O Prêmio é de R$200,00</string>
+    <string name="premio_100">O prêmio é de R$100,00</string>
+    <string name="premio_500">O prêmio é de R$500,00</string>
 
 
     // Strings Exercicio 6

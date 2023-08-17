@@ -8,7 +8,7 @@
 <p> Orientador: Prof° Aline Brito; </p>
 <p> Sobre o projeto: App com finalidade de praticar exercícios em Java. O README será um arquivo onde será detalhado todo processo. </p>
 
-## Prints
+## Prints Git
 
 ### Passo 1 (Criar um repositório)
 <div align="center">
@@ -56,3 +56,55 @@
   <p> O commit foi realizado, porém, ainda não está no servidor. Para mandar para o mesmo, basta utlizar o comando "git push -u origin nome_da_branch".</p>
   <p> O 5° passo será o mais utlizado no decorrer do projeto, já que envolve commits. </p>
 </div>
+
+## Prints Android Studio
+
+### Tela inicial (Home)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/fa0308be-28cf-469f-8855-a23f63dc38e7)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/70b61ed9-b266-4032-86ec-4a91a453c506)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/97c8d56d-fb66-45ee-a162-03d8f9ea118f)
+
+
+### Tela de Dados
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/e4411e44-0f95-4202-955c-0794ce4f6d31)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/bc105709-8339-4f69-a9a5-2ff04cb88e01)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/15b23ab4-3d48-4967-9ca0-211dba9462f8)
+
+
+### Tela do Exercício 3
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/6512f8e8-411e-408c-85db-9b939266d621">
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/267e9d0e-9554-4916-ab51-53dd923e3a06">
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/51ae4188-d699-4314-a286-a4f3e94e0205">
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/6fb3e706-80c0-480e-86b4-1db56cd2fd2c">
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/ab584110-eecb-41f8-8ac2-ff3f83abe91d">
+
+### Tela de Exercício 6
+
+<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/ab584110-eecb-41f8-8ac2-ff3f83abe91d">
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/b8e0f9cf-627d-4010-b310-8cabd7ed9316)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/8c685a87-4f06-4165-8032-93a53f3263e0)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/54cc8243-97c1-42ed-89f7-03bea4a29de5)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/c74e6df0-c633-460e-95d7-1959e5d65388)
+
+![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/a6218da9-a9cd-4420-9c87-2e36ed1c6da2)
+
+## Execução do APP
+
+https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/5fbb108e-1140-45b5-b68f-06cbecac9926
+
+

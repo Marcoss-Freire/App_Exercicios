@@ -1,6 +1,7 @@
 # App_Exercicios
 
 ## Dados
+![20cb9c95f6131320a4ed22d6a043548f067d40e8r1-1920-1080v2_hq](https://github.com/Marcoss-Freire/App_Exercicios/assets/128051869/c0516ddd-d816-4d90-9ca5-2ac62de6a067)
 
 <p> Nome: Marcos Vinícius Barros Freire; </p>
 <p> Nome: Marina Oliveira da Silva; </p>

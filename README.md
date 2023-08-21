@@ -2,14 +2,21 @@
 
 ## Dados
 
-
 <p> Nome: Marcos Vinícius Barros Freire; </p>
 <p> Nome: Marina Oliveira da Silva; </p>
 <p> Turma: 2° PI - DS </p>
 <p> Orientador: Prof° Aline Brito; </p>
 <p> Sobre o projeto: App com finalidade de praticar exercícios em Java. O README será um arquivo onde será detalhado todo processo. </p>
 
-## Prints Git
+## Índice
+ 
+ * <a href="#t1"> Prints Git </a>
+ * <a href="#t2"> Prints Android Studio </a>
+ * <a href="#t3"> Execução do App</a>
+ * <a href="#t4"> Elementos (Views) </a>
+ * <a href="t5"> Referências </a>
+
+<h2 id="t1">Prints Git</h2>
 
 ### Passo 1 (Criar um repositório)
 <div align="center">
@@ -58,54 +65,81 @@
   <p> O 5° passo será o mais utlizado no decorrer do projeto, já que envolve commits. </p>
 </div>
 
-## Prints Android Studio
+<h2 id="t2">Prints Android Studio</h2>
 
 ### Tela inicial (Home)
-
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/fa0308be-28cf-469f-8855-a23f63dc38e7)
-
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/70b61ed9-b266-4032-86ec-4a91a453c506)
-
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/97c8d56d-fb66-45ee-a162-03d8f9ea118f)
-
+<div align="center">
+  <img scr="img/tela_home.png">
+  <br>
+  <div align="justify">
+    <p>A tela home é a Activity onde dará acesso a todas outras   activity, ou seja, por ela é possível entrar na tela de   exercícios e dados.</p>
+    <p>Os elementos utlizados em sua totalidade foram:  ScrollView (Para ver os outros exercícios), TextView (Para   mostrar textos e outros), ImageButton (Para colocar um  icone clicável) e Linear Layout (Para organizar o Layout)</p>
+  </div>
+  <br>
+  <img src="img/cod_home.png">
+  <img src="img/cod_home2.png">
+  </br>
+  <div align="justify">
+    <p>Na codficação foi utlizado códigos padrões. Adicionando funcionalidade de clicar nos ImageButton para ir para outra tela.<p>
+  </div>  
+</div>
+<br>
 
 ### Tela de Dados
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/e4411e44-0f95-4202-955c-0794ce4f6d31)
+<div align="center">
+  <img src="img/tela_dados.png">
+  <br>
+  <br>
+  <div align="justify">
+    <p>A tela de dados é uma Activity auto-explicativa, onde, é utlizada para exibir alguns dados sobre a instituição e outros.</p>
+    <p>Em geral, nela foi utilizada elementos padrões, como TextViews, ImageButton, etc.</p>
+  </div>
+  </br>
+  <img src="img/cod_dados.png">
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/bc105709-8339-4f69-a9a5-2ff04cb88e01)
-
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/15b23ab4-3d48-4967-9ca0-211dba9462f8)
-
+  <img scr="img/cod_dados2.png">
+  <div align="justify">
+    <p>Na codficação foi utlizado códigos padrões. Adicionando funcionalidade de clicar nos ImageButton para ir para outra tela.<p>
+  </div> 
+</div>
 
 ### Tela do Exercício 3
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/6512f8e8-411e-408c-85db-9b939266d621">
+<img src="img/tela_exe3.png">
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/267e9d0e-9554-4916-ab51-53dd923e3a06">
+<img src="img/cod_exe3.0.png">
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/51ae4188-d699-4314-a286-a4f3e94e0205">
+<img src="img/cod_exe3.1.png">
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/6fb3e706-80c0-480e-86b4-1db56cd2fd2c">
+<img src="img/cod_exe3.2.png">
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/ab584110-eecb-41f8-8ac2-ff3f83abe91d">
+<img src="img/cod_exe3.3.png">
 
 ### Tela de Exercício 6
 
-<img src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/ab584110-eecb-41f8-8ac2-ff3f83abe91d">
+<div align="center">
+  <img src="img/tela_exe6.png">
+  <br>
+  <div align="justify">
+    <p>Na Activity do Exercício 6, corresponde a resolução do mesmo. Basicamente consiste em escolher um código (Produto), digitar a quantidade e descobrir qual o valor a pagar.</p>
+    <p>Os elementos utlizados foram: RadioButton (Para selecionar o código), RadioGroup (Para agrupar os RadioButton), ImageButton(Como ícones que levam a outras telas), Button(Para calcular), TextViews(Para apresentar textos), Toast(Para apresentar o resultado) e Linear Layout (Para organização de Layout)</p>
+  </div
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/b8e0f9cf-627d-4010-b310-8cabd7ed9316)
+  <img src="img/cod_exe6.0.png">
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/8c685a87-4f06-4165-8032-93a53f3263e0)
+  <img src="img/cod_exe6.1.png">
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/54cc8243-97c1-42ed-89f7-03bea4a29de5)
+  <img src="img/cod_exe6.2.png">
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/c74e6df0-c633-460e-95d7-1959e5d65388)
+  <img src="img/cod_exe6.3.png">
+  <br>
+  <p>No quesito da codificação foi utlizado comandos para verficar se o Radio estava selecionado, e depois um swich case para realizar determinada operação com a quantidade digitada dependendo do raio selecionado.<p>
+  <p>Inicalmento, essa verificação do código estava sendo feita com "If e Else" junto com o "equals", porém o Android Studio recomendou esta forma de estruturar o código.</p>
+</div>
 
-![image](https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/a6218da9-a9cd-4420-9c87-2e36ed1c6da2)
 
-## Execução do APP
-
-https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/5fbb108e-1140-45b5-b68f-06cbecac9926
-
+<h2 id="t3">Execução do APP</h2>
+</br>
+<video src="video/Teste_de_execução.mp4">
 

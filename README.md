@@ -164,9 +164,10 @@
 
 <br><br><br>
 
-<h2 id="t3">Execução do APP</h2>
-</br>
-<video>
-  <source src="video/Teste_de_execucao.mp4" type="video/mp4">
-</video>
+## Execução do APP
+<br>
+<div align="center">
+  <video src="https://github.com/Marcoss-Freire/App_Exercicios/assets/128001916/9d29733e-5c92-46e2-8d91-78aafa8afead"></video>
+</div>
+
 

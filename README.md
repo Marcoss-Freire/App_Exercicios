@@ -144,6 +144,8 @@
 <img src="img/cod_exe3.2.png">
 
 <img src="img/cod_exe3.3.png">
+<br>
+<p>Na codificação da activity, foi utilizado um comando pra converter as horas em minutos(enviadas pelo usuário), e com isso dando função de 'calcular' ao botão. Após o calculo, os códigos de condição foram utilizados para apresentar a resposta de prêmio. </p>
 
 ### Tela de Exercício 6
 

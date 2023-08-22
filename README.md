@@ -8,15 +8,8 @@
 <p> Orientador: Prof° Aline Brito; </p>
 <p> Sobre o projeto: App com finalidade de praticar exercícios em Java. O README será um arquivo onde será detalhado todo processo. </p>
 
-## Índice
- 
- * <a href=".t1"> Prints Git </a>
- * <a href="#t2"> Prints Android Studio </a>
- * <a href="#t3"> Execução do App</a>
- * <a href="#t4"> Elementos (Views) </a>
- * <a href="t5"> Referências </a>
 
-<h2 class="t1">Prints Git</h2>
+## Prints Git
 
 ### Passo 1 (Criar um repositório)
 <div align="center">
@@ -86,7 +79,7 @@
     <p> Para certificar-se quais foram os commits feitos é  necessário digitar o comando "git log". </p>
   </div>
   <br>
-  <img src="img/comanado_enviar.png">
+  <img src="img/comando_enviar.png">
   <br>
   <div align="justify">
     <p> O commit foi realizado, porém, ainda não está no  servidor. Para mandar para o mesmo, basta utlizar o comando  "git push -u origin nome_da_branch".</p>
@@ -94,7 +87,9 @@
   </div>
 </div>
 
-<h2 id="t2">Prints Android Studio</h2>
+<br><br><br>
+
+## Prints Android Studio
 
 ### Tela inicial (Home)
 <div align="center">
@@ -167,10 +162,11 @@
   <p>Inicalmento, essa verificação do código estava sendo feita com "If e Else" junto com o "equals", porém o Android Studio recomendou esta forma de estruturar o código.</p>
 </div>
 
+<br><br><br>
 
 <h2 id="t3">Execução do APP</h2>
 </br>
 <video>
-  <source src="video/Teste_de_execução.mp4" type="video/mp4">
+  <source src="video/Teste_de_execucao.mp4" type="video/mp4">
 </video>
 

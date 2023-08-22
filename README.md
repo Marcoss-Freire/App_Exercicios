@@ -133,7 +133,7 @@
 <img src="img/tela_exe3.png">
 <br>
 <div align="justify">
-  <p>Na Activity de Exercício 3, corresponde a resolução deste exercício, no qual consiste na soma de horas extras e horas faltas por um funcionário, e apartir do resultado é informado o valor de prêmio (do funcionário) de acordo com a tabela descrita no enunciado do exercício.</p>
+  <p>Na Activity de Exercício 3, corresponde a resolução deste exercício, no qual consiste em um cálculo, baseado nas horas extras e horas faltas por um funcionário, e apartir do resultado é informado o valor de prêmio (do funcionário) de acordo com a tabela descrita no enunciado do exercício.</p>
   <p>Os elementos utilizados foram: TextView (para informar o usuário o que deve ser digitado), EditText(para que o usuário digite o que está sendo pedido no), Button(pra calcular, os valores inseridos pelo usuário).</p>
 </div>
 </div>
